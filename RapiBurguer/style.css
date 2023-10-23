@@ -1,6 +1,6 @@
 body {
     color: deeppink;
-    background-color: black;
+    background-color: white;
     text-align: center; /* Para centrar el contenido en el body */
 }
 
@@ -14,11 +14,11 @@ body {
 #seccion1 {
     background-image: url(https://img.freepik.com/free-photo/burger-with-potatoes-with-herbs-spices_114579-2363.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696896000&semt=ais);
     background-size: 100%;
-    background-position: right center; /* Alineación a la izquierda */
+    background-position: left center; /* Alineación a la izquierda */
     padding:400px; /* Espacio alrededor del contenido */
 }
 
 /* Añade un contenedor interno para centrar el contenido dentro de la sección */
 #contenido {
-    text-align: right;
+    text-align: left;
 }
